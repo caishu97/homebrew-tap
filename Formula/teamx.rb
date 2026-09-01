@@ -26,10 +26,9 @@ class Teamx < Formula
   end
 
   def install
-    # The tarball wraps everything in a teamx-<version>/ directory.
-    cd "teamx-#{version}" do
-      bin.install "bin/teamx"
-    end
+    # Homebrew auto-chdirs into the tarball's top-level directory
+    # (teamx-<version>/), so bin/teamx is relative to that.
+    bin.install "bin/teamx"
   end
 
   test do
