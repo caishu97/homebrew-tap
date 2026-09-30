@@ -1,7 +1,7 @@
 class Teamx < Formula
   desc "teamx - shared-goal team collaboration state kernel"
   homepage "https://github.com/caishu97/teamx-enterprise"
-  version "0.2.5"
+  version "0.2.6"
 
   # Pre-built binaries live on the PUBLIC homebrew-tap release (the enterprise
   # source repo is private, so anonymous brew downloads point here). Tarballs
@@ -16,19 +16,19 @@ class Teamx < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/caishu97/homebrew-tap/releases/download/v0.2.5/teamx-macos-arm64.tar.gz"
-      sha256 "b595b2e549495b6faa253b9f407dadb409f924aec4c128bf23c878d9dd1250a2"
+      url "https://github.com/caishu97/homebrew-tap/releases/download/v0.2.6/teamx-macos-arm64.tar.gz"
+      sha256 "309999f4aef679401b72e636f42b7fec537b88ddbc517012c289df712eb0e50a"
     end
   end
 
   on_linux do
     on_x86_64 do
-      url "https://github.com/caishu97/homebrew-tap/releases/download/v0.2.5/teamx-linux-x86_64.tar.gz"
-      sha256 "e5e631cdd9e4ea2937b27da4410caf1cb1c96b78c423ca20145a327429bec4bd"
+      url "https://github.com/caishu97/homebrew-tap/releases/download/v0.2.6/teamx-linux-x86_64.tar.gz"
+      sha256 "b8fc73423b65c4ba91fbd242a9c3b552c6de5dd6d22bdc148fe803b1ea5c4d41"
     end
     on_arm do
-      url "https://github.com/caishu97/homebrew-tap/releases/download/v0.2.5/teamx-linux-arm64.tar.gz"
-      sha256 "0242b836a9a80af9156a984a3fbfd928c0ee44c1e743df939dbe1b6eaed8eef1"
+      url "https://github.com/caishu97/homebrew-tap/releases/download/v0.2.6/teamx-linux-arm64.tar.gz"
+      sha256 "cd994c57c1289f70aafe2b9c8817b6f7a7450f6852ea804f02646b3edcc495bb"
     end
   end
 
